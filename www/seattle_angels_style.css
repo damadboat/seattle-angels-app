@@ -1,0 +1,18 @@
+
+    paper-card {
+      width: 100%;
+      margin-bottom: 16px;
+    }
+    
+    swipe-pages {
+      width:  100%;
+      height:  65%; /* JET this DOESN"T count the height of the static pieces of the app (logo, bottom menu buttons), so must be less than 100%. */
+    }
+     
+    .swipe {
+      -moz-user-select: none;
+      -ms-user-select: none;
+      -webkit-user-select: none;
+      user-select: none;
+      cursor: default;
+    }
